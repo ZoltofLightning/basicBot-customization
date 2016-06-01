@@ -58,7 +58,7 @@
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
         startupEmoji: false, // true or false
-        cmdDeletion: true,
+        cmdDeletion: false,
         chatLink: "https://rawgit.com/ZoltofLightning/basicBot/master/lang/en.json",
         maximumAfk: 90,
         afkRemoval: false,
