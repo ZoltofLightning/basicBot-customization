@@ -53,7 +53,7 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "Trixiebot",
+        botName: "Electribot",
         language: "english",
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
@@ -73,7 +73,7 @@
         voteSkip: false,
         voteSkipLimit: 5,
         timeGuard: false,
-        maximumSongLength: 7,
+        maximumSongLength: 6,
         autodisable: true,
         commandCooldown: 30,
         usercommandsEnabled: true,
@@ -105,7 +105,7 @@
         intervalMessages: [],
         messageInterval: 5,
         songstats: false,
-        commandLiteral: "!",
+        commandLiteral: "~",
         blacklists: {
             Banned: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/Banned.json",
             Overplayed: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/Overplayed.json",
