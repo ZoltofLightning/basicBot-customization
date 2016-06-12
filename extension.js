@@ -105,7 +105,7 @@
         intervalMessages: [],
         messageInterval: 5,
         songstats: false,
-        commandLiteral: "~",
+        commandLiteral: "!",
         blacklists: {
             Banned: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/Banned.json",
             Overplayed: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/Overplayed.json",
